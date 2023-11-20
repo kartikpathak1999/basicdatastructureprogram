@@ -1,0 +1,33 @@
+package streamfucnton;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class streammap {
+	
+	public static void main(String[]args) {
+		
+		
+  ArrayList<Integer>I=new ArrayList<Integer>();
+  
+  I.add(0);
+  
+  I.add(10);
+  
+  I.add(20);
+  
+  I.add(40);
+  
+  I.add(50);
+  
+  System.out.println(I);
+  
+  List<Integer>I1=I.stream().map(i->i*2==0).collect(Collectors.toList());
+  
+  
+  System.out.println(I1);
+		
+	}
+
+}

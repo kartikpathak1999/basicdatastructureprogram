@@ -1,0 +1,30 @@
+package importantprograms;
+
+import java.util.Scanner;
+public class evenodd {
+	
+	public static void main(String[]args) {
+		
+		
+		Scanner sc= new Scanner(System.in);
+		
+	System.out.println("Enter the no ");
+		
+		int i= sc.nextInt();
+		
+		
+		while(i>=0) {
+		if(i%2==0) {
+			
+			
+			System.out.println(i);
+		}
+		
+		else {
+			
+			System.out.println(" no is  odd ");
+		}
+	}
+
+}
+}
